@@ -2,13 +2,12 @@
 
 katz_deli = []
 
-
+$count = 1
 
 def take_a_number(katz_deli)
-  count = 1
-
-  puts "Welcome! You're ticket number #{count  katz_deli << count}"
-  count +=1
+  katz_deli << $count
+  puts "Welcome! You're ticket number #{$count}"
+  $count +=1
 end
 
 # take_a_number(katz_deli) => "Welcome! You're ticket number #1" [1]
