@@ -6,8 +6,8 @@ katz_deli = []
 
 def take_a_number(katz_deli)
   count = 1
-  katz_deli << count
-  puts "Welcome! You're ticket number #{count}"
+
+  puts "Welcome! You're ticket number #{count  katz_deli << count}"
   count +=1
 end
 
